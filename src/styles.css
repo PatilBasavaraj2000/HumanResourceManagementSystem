@@ -1,0 +1,44 @@
+/* styles.css */
+.leave-request-form {
+    margin-bottom: 20px;
+  }
+  
+  .leave-request-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leave-request-form label {
+    margin-bottom: 10px;
+  }
+  
+  .calendar-view {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-view h3 {
+    margin-bottom: 10px;
+  }
+  
+  .leave-request-visualization ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leave-request-visualization li {
+    margin-bottom: 10px;
+  }
+  
+  .leave-approval ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leave-approval li {
+    margin-bottom: 20px;
+  }
+  
+  .leave-approval button {
+    margin-right: 10px;
+  }
+  

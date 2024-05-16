@@ -1,0 +1,21 @@
+.employee-details-page {
+    padding: 20px;
+  }
+  
+  .employee-details-page h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .employee-details-page h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .employee-details-page p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Add any additional styling as needed */
+  
