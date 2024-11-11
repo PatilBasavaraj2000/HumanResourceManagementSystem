@@ -1,0 +1,65 @@
+/* General styles for MyComponent */
+.my-component {
+    text-align: center; /* Center-align text and image */
+    padding: 2rem; /* Add padding around the content */
+    background-color: #f0f8ff; /* Light background color */
+}
+
+.my-component h1 {
+    font-size: 2rem; /* Font size for heading */
+    margin-bottom: 1rem; /* Space below the heading */
+    color: #333; /* Text color */
+}
+
+.my-component img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow effect */
+}
+
+/* Section styles */
+section {
+    margin: 2rem 0; /* Space between sections */
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem; /* Font size for section headings */
+    color: #007bff; /* Color for section headings */
+    margin-bottom: 1rem; /* Space below section headings */
+}
+
+ul {
+    list-style-type: disc; /* Default list style */
+    padding-left: 1.5rem; /* Indent list items */
+}
+
+ul li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .my-component h1 {
+        font-size: 1.5rem; /* Smaller font size for tablets */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Smaller font size for section headings */
+    }
+}
+
+@media (max-width: 576px) {
+    .my-component h1 {
+        font-size: 1.25rem; /* Even smaller font size for mobile devices */
+    }
+
+    .my-component {
+        padding: 1rem; /* Reduce padding on smaller screens */
+    }
+
+    h2 {
+        font-size: 1rem; /* Even smaller font size for section headings on small screens */
+    }
+}

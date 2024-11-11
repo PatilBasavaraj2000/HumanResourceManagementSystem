@@ -1,0 +1,105 @@
+/* General navbar styles */
+.navbar {
+    border-bottom: 1px solid #000000;
+    padding: 10rem 2rem;
+    background-color: #f86565; /* Background color for the navbar */
+    z-index: 1000; /* Ensure it stays on top */
+    position: fixed;
+}
+
+/* Container fluid styles */
+.navbar-expand-lg{
+    background-color: #65b7ff; /* Background color for the container */
+    padding-left: 0px;
+    border-radius: 8px;
+    padding-right: 10px;
+    position: fixed;
+   
+   
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-weight: bold;
+    color: #343a40; /* Color for brand text */
+    font-size: 1.25rem; /* Font size for brand text */
+}
+
+.navbar-brand:hover {
+    color: #007bff; /* Color change on hover */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #495057; /* Default link color */
+    margin-right: 1rem; /* Space between links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Color change on hover */
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #007bff; /* Highlight color for active link */
+}
+
+/* Form styling in navbar */
+.form-control {
+    border-radius: 0.25rem; /* Rounded corners for input */
+    border: 1px solid #ced4da; /* Input border color */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Shadow on focus */
+}
+
+.btn-outline-success {
+    color: #28a745; /* Text color for success button */
+    border-color: #28a745; /* Border color for success button */
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .navbar {
+        padding: 0.5rem 1rem; /* Adjust padding for medium screens */
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        margin-top: 0.5rem; /* Add margin on smaller screens */
+    }
+
+    .navbar {
+        background-color: #e0f7fa; /* Change background color for medium screens */
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar {
+        padding: 0.5rem; /* Reduce padding for smaller screens */
+        background-color: #b2ebf2; /* Change background color for small screens */
+    }
+
+    .navbar-nav {
+        margin-top: 0;
+        text-align: center; /* Center-align links on small screens */
+    }
+
+    .navbar-nav .nav-link {
+        margin-right: 0;
+        margin-bottom: 0.5rem; /* Space between links on small screens */
+    }
+
+    .navbar-toggler {
+        margin-left: auto; /* Align toggler button to the right */
+    }
+}

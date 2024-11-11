@@ -1,0 +1,106 @@
+/* src/pages/About.css */
+
+.about-page {
+  padding: 2rem;
+  background: #f0f0f0;
+  padding: 20px;
+background: linear-gradient(45deg, #e0d5d4, #8875b7);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.social-media-icons {
+  margin-top: 1rem;
+}
+
+.social-media-icons a {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1.5rem; /* Added space between icons */
+  text-decoration: none;
+  color: #333;
+}
+
+.social-media-icons i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.social-media-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.social-media-icons a:nth-child(2) {
+  color: #25D366; /* WhatsApp color */
+}
+
+.social-media-icons a:nth-child(1) {
+  color: #1c2eed; /* WhatsApp color */
+}
+
+.social-media-icons a:nth-child(3) {
+  color: #00c3ff; /* WhatsApp color */
+}
+
+.social-media-icons a:nth-child(4) {
+  color: #ef35ab; /* WhatsApp color */
+}
+
+.social-media-icons a:nth-child(5) {
+  color: #e24d1f; /* WhatsApp color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/pages/About.css */
+
+
+.about-page h1 {
+  color: #343a40;
+  
+}
+
+.about-page h2 {
+  color: #007bff;
+  
+}
+
+.about-page ul {
+  list-style-type: square;
+}
+
+.about-page a {
+  color: #007bff;
+}
+
+.about-page a:hover {
+  text-decoration: underline;
+}
+

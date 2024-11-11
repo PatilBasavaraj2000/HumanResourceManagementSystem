@@ -1,3 +1,4 @@
+/* General body styles */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Linear gradient background */
+
+  background: linear-gradient(55deg, #04e8f9, #0df1e2);
+  /* Gradient from pink to purple */
+  height: 100vh; /* Full height of the viewport */
+  line-height: 4.6; /* Improve readability */
+  padding: 8px; /* Remove default padding */
+
+  box-sizing:content-box /* Ensure padding and borders are included in element's total width and height */
 }
 
+/* Code styling */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Responsive typography */
+@media (max-width: 1200px) {
+  body {
+    font-size: 16px; /* Adjust font size for medium to large screens */
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 15px; /* Slightly smaller font size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Smaller font size for mobile devices */
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 13px; /* Even smaller font size for very small screens */
+  }
+}
+
+/* Code block styling */
+code {
+  font-size: 0.875rem; /* Adjust font size for code blocks */
+}
+
+@media (max-width: 768px) {
+  code {
+    font-size: 0.75rem; /* Smaller font size for code blocks on mobile devices */
+  }
 }
